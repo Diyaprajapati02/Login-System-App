@@ -35,7 +35,7 @@ function login() {
     {
         alert("Login successful !");
     })
-    .catch(error => {
+    .catch((error) => {
         alert(error.message);
     });
 }
