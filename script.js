@@ -22,7 +22,7 @@ function signup() {
     {
         alert("Signup successful !");
     })
-    .catch(error => {
+    .catch((error) => {
         alert(error.message);
     });
 }
